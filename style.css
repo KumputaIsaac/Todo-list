@@ -118,3 +118,20 @@ select{
     background: white;
     color: #ff6f47;
 }
+
+@media screen and (max-width: 480px) {
+    form {
+      display: flex;
+      flex-wrap: wrap;
+     
+    }
+    input{
+        text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 330px) {
+      input{
+        width: 180px;
+      }
+  }
